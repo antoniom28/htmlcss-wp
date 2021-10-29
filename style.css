@@ -102,9 +102,13 @@ nav a:hover{
     background-image: url(img/banner.jpg);
     background-size:cover;
     background-repeat: no-repeat;
-  /* filter:saturate(50%);*/
+    filter: brightness(86%);
 }
-.banner-text{
+div.banner-text{
     position: absolute;
     bottom: 0;
+    width: 53%;
+    bottom: 10%;
+    left: 5%;
+    color: white;
 }
