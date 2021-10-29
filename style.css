@@ -22,7 +22,7 @@ header{
 }
 
 footer{
-    background-color: blueviolet;
+    /*background-color: blueviolet;*/
     height: 40px;
     text-align: center;
 }
@@ -103,7 +103,7 @@ nav a:hover{
 .banner{
     height: 100%;
     background-image: url(img/banner.jpg);
-    background-size:cover;
+    background-size:contain;
     background-repeat: no-repeat;
     filter: brightness(86%);
     background-position: center center;
@@ -143,4 +143,8 @@ div.immcentrale{
 
 .immcentrale{
     overflow: hidden;
+}
+
+span{
+    color: red;
 }
