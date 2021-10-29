@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html,body{
+    width: 96%;
+    margin: 0 2%;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+  }
+/*main{
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}*/
+header{
+    /*background-color:rgb(240, 52, 183);*/
+    margin-top: 10px;
+}
+
+footer{
+    background-color: blueviolet;
+    height: 40px;
+    margin:9px 0px;
+}
+
+.main-bottom::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.main-bottom{
+    border: 8px solid rgb(0, 95, 184);
+    border-left: 0;
+    border-right: 0;
+   
+}
+.main-top{
+   /*background-color: rgb(182, 182, 26);*/
+    height: 400px;
+    margin: 15px 0;
+    /*flex: 1 1 auto;*/
+    position: relative;
+}
+
+.top{
+    background-color: deepskyblue;
+    height: 31px;
+}
+
+.main-bottom div{
+    background-color: deepskyblue;
+height: 250px;
+float:left;
+}
+
+.left{
+    width: 25%;
+}
+
+.right{
+    width: 25%;
+}
+
+.middle{
+    width: 50%;
+    border: 8px solid rgb(0, 95, 184);
+    border-top: 0;
+    border-bottom: 0;
+
+}
+
+/* --------------- NUOVA PARTE --------------- */
+
+.logo img{
+    border-right: 1px solid #666;
+    margin-bottom: 25px;
+    height: 50px;
+}
+
+nav li{
+    list-style: none;
+    float:left;
+    margin-right: 10px;
+}
+
+nav a{
+    text-transform: uppercase;
+    text-decoration:none;
+    color:#666
+}
+nav a:hover{
+    background-color: rgb(151, 255, 255);
+    border-radius: 50px;
+}
+.banner{
+    height: 100%;
+    background-image: url(img/banner.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+  /* filter:saturate(50%);*/
+}
+.banner-text{
+    position: absolute;
+    bottom: 0;
+}
