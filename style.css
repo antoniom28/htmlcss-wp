@@ -48,8 +48,9 @@ footer{
 }
 
 .top{
-    background-color: deepskyblue;
-    height: 31px;
+    /*background-color: deepskyblue;*/
+    height: 60px;
+    text-align: left;
 }
 
 .main-bottom div{
