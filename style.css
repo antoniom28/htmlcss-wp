@@ -62,12 +62,12 @@ footer{
 }
 
 .left,.right{
-    width: 20%;
+    width: 16%;
     overflow: hidden;
 }
 
 .middle{
-    width: 56%;
+    width: 64%;
    /* border: 8px solid rgb(0, 95, 184);*/
     border-top: 0;
     border-bottom: 0;
